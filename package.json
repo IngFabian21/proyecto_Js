@@ -1,0 +1,37 @@
+{
+  "name": "proyecto_js",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IngFabian21/proyecto_Js#readme",
+  "bugs": {
+    "url": "https://github.com/IngFabian21/proyecto_Js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngFabian21/proyecto_Js.git"
+  },
+  "license": "ISC",
+  "author": "Fabian Rodriguez",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "concurrently \"npm run dev \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "jquery": "^4.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "grunt": "^1.6.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^4.1.0",
+    "lite-server": "^2.6.1",
+    "sass": "^1.102.0"
+  }
+}
